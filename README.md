@@ -18,7 +18,7 @@ It contains the following files:
 
 - summarised_uci_har_dataset.csv
 
-    The summaried dataset (see `CodeBook.md` for further information)
+    The summaried (tidy) dataset (see `CodeBook.md` for further information)
 
 ## Prerequirements
 
