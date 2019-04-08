@@ -1,6 +1,6 @@
 # "Code Book"
 
-This document describes the source code inside `CleanData.R`.
+This document describes the source code inside `run_analysis.R`.
 
 It contains two sections:
 
