@@ -7,11 +7,11 @@ It contains two sections:
 1. Extracting, filtering and transforming the original [UCI Human Activity Recognition dataset](http://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
 1. Summarising the average of each variable/feature for each activity and each subject
 
-The tidy dataset is provided as `tidy_uci_har_dataset.csv` and the summarised dataset as `summarised_uci_har_dataset.csv`. 
+The compact dataset is provided as `compact_uci_har_dataset.csv` and the summarised (tidy) dataset as `summarised_uci_har_dataset.csv`. 
 
 ## The Datasets
 
-### tidy_uci_har_dataset
+### compact_uci_har_dataset
 
 The code reassembles the training and test data from
 
@@ -32,7 +32,7 @@ Further information regarding the features, their units and how these where meas
 
 ### summarised_uci_har_dataset
 
-This dataframe summaries the data provided by `tidy_uci_har_dataset.csv`, by averaging each feature for each activity and subject.
+This dataframe summaries the data provided by `compact_uci_har_dataset.csv`, by averaging each feature for each activity and subject.
 
 The calculation makes use of the [dplyr libary](https://www.r-project.org/nosvn/pandoc/dplyr.html). If not found, it is (automatically) requested to be installed.
 
@@ -44,5 +44,5 @@ The calculation makes use of the [dplyr libary](https://www.r-project.org/nosvn/
 
 - selectedFeatures
 
-    Contains the index number of each feature listed in `featureNames` which contains either `-mean(` or `-std(`. It is used to subset the features of interest, stored in `tidy_uci_har_dataset.csv`.
+    Contains the index number of each feature listed in `featureNames` which contains either `-mean(` or `-std(`. It is used to subset the features of interest, stored in `compact_uci_har_dataset.csv`.
 
